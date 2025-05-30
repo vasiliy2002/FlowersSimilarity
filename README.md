@@ -9,7 +9,7 @@
 3. Теперь можно для любого входного изображения вычислить вектор и найти ближайшие к нему (используется метрика Евклида).
 
 ## Датасет
-Изображения цветов были получены из [датасета Kaggle](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition/data). Было составлено множество векторных представлений изображений из тестовой выборки, с которыми и производится сравнение входного изображения. 
+Изображения цветов были получены из [датасета Kaggle](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition/data).
 
 ## Запуск в Docker
 Для контейнеризации используется директория `webserver`.  В данной директории нужно создать папку `weights` и загрузить [веса](https://drive.google.com/drive/folders/1BepCTeY5jFhhEEsuiC6avw7lUmT4eUli?usp=sharing)  модели. Затем создать папку `flowers_library` и загрузить туда [векторное представление изображений из библиотеки и их относительные пути](https://drive.google.com/drive/folders/1MR67f7W-SUgWwZNF29iQEAwTr5WFcV-7?usp=sharing). Таким образом, директория `webserver` будет иметь следующий вид:
